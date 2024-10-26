@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Christmas countdown</title>
+    <link rel="icon" href="data:,">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato&family=Roboto:wght@100;300&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div id="particles-js"></div>
+
+    <div class="header">
+        <div class="about">
+
+            <div class="text">
+                <h6>How many days until</h6>
+                <h1>Christmas Day</h1>
+            </div>
+
+            <div class="calendar">
+                <img src="calendar.png" alt="calendar" width="25px"
+                    height="25px">
+                <p>Wednesday, 25 December 2024</p>
+            </div>
+
+            <div class="map">
+                <img src="map-pin.png" alt="map-pin" width="25px" height="25px">
+                <p>Calgary, AB Canada</p>
+            </div>
+        </div>
+
+        <div class="music">
+            <img src="music-notes.png" alt="notes" width="250px">
+            <div class="buttons">
+                <button class="playBtn"><img class="hey"
+                        src="icons8-play-button-30.png" alt="play-button"
+                        width="50px"></button>
+                <button class="pauseBtn"><img src="icons8-pause-button-30.png"
+                        alt="pause-button" width="50px"></button>
+            </div>
+        </div>
+    </div>
+
+    <h4>HOOORAAAAYYY!!!</h4>
+
+    <div class="blocks">
+
+        <div class="block">
+            <h2 class="displayDays"></h2>
+            <h3>DAYS</h3>
+        </div>
+
+        <div class="block">
+            <h2 class="displayHours"></h2>
+            <h3>HOURS</h3>
+        </div>
+
+        <div class="block">
+            <h2 class="displayMinutes"></h2>
+            <h3>MINUTES</h3>
+        </div>
+
+        <div class="block">
+            <h2 class="displaySeconds"></h2>
+            <h3>SECONDS</h3>
+        </div>
+
+    </div>
+
+    <audio id="firstSong" loop>
+        <source src="song1.mp3" type="audio/mp3">
+    </audio>
+
+    <audio id="finalSong" loop>
+        <source src="song2.mp3" type="audio/mp3">
+    </audio>
+
+   
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="index.js"></script>
+</body>
+
+</html>
